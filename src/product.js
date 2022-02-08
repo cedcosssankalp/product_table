@@ -30,12 +30,12 @@ function add(n,i,p){
 function display(){
     table=document.getElementById("table");
     var row = table.insertRow(-1);
-    var cell1=row.insertCell(0);
-    var cell2=row.insertCell(1);
-    var cell3=row.insertCell(2);
+    var sa1=row.insertCell(0);
+    var sa2=row.insertCell(1);
+    var sa3=row.insertCell(2);
     for (var i=0; i<products.length; i++){
-        cell1.innerHTML = products[i].productId;
-        cell2.innerHTML = products[i].productName;
-        cell3.innerHTML = products[i].productPrice;
+        sa1.innerHTML = products[i].productId;
+        sa2.innerHTML = products[i].productName;
+        sa3.innerHTML = products[i].productPrice;
     }
 }

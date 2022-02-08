@@ -2,29 +2,30 @@
     line-height: 3;
 }
 #predict{
-    padding: 2% 5%;
+    padding: 3% 5%;
 }
 #main{
     margin: 5% 20%;
 }
-.content{
-    margin-left: 10%;
+.cont{
+    margin-left: 20%;
 }
 #pname{
     margin-left: 3%;
+    color: brown;
 }
 #pid{
     margin-left: 5%;
 }
 #price{
-    margin-left: 3%;
+    margin-left: 5%;
 }
 input{
-    padding: 1%;
+    padding: 2%;
 }
 button{
-    margin-left: 10%;
-    padding: 1%
+    margin-left: 20%;
+    padding: 3%
 }
 table{
     margin-left: 10%;
