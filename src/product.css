@@ -1,0 +1,31 @@
+#main{
+    line-height: 3;
+}
+#predict{
+    padding: 2% 5%;
+}
+#main{
+    margin: 5% 20%;
+}
+.content{
+    margin-left: 10%;
+}
+#pname{
+    margin-left: 3%;
+}
+#pid{
+    margin-left: 5%;
+}
+#price{
+    margin-left: 3%;
+}
+input{
+    padding: 1%;
+}
+button{
+    margin-left: 10%;
+    padding: 1%
+}
+table{
+    margin-left: 10%;
+}

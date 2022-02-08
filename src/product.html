@@ -1,0 +1,58 @@
+<html>
+  <head>
+    <script src="product.js"></script>
+    <link href="product.css" rel="stylesheet" />
+  </head>
+  <body>
+    <h1>Products Table</h1>
+    <form>
+      <div class="content">
+        <label for="pid">Product Id:</label>
+        <input
+          type="text"
+          id="pid"
+          name="Product Id"
+          placeholder=" Product Id"
+        />
+        <br />
+        <br>
+      </div>
+
+      <div class="content">
+        <label for="pname">Product Name:</label>
+        <input
+          id="pname"
+          type="text"
+          name="Product name"
+          placeholder= "name"
+        />
+        <br />
+        <br>
+      </div>
+
+      <div class="content">
+        <label for="price">Product price:</label>
+        <input
+          type="text"
+          id="price"
+          name="Product price"
+          placeholder=" price"
+        />
+        <br />
+        <br>
+      </div>
+      <div>
+        <button type="button" onclick="fetch()" id="submit">Add Product</button>
+      </div>
+      <p id="answer"></p>
+
+    </form>
+    <table id="table">
+      <tr>
+      <th>Product ID</th>
+      <th>Product Name</th>
+      <th>Product Price </th>
+</tr>
+    </table>
+  </body>
+</html>
